@@ -1,5 +1,5 @@
 context:
-  version: "0.1"
+  version: "0.3"
 
 package:
   name: otmeshing
@@ -7,14 +7,12 @@ package:
 
 source:
   url: https://github.com/openturns/otmeshing/archive/v${{ version }}.tar.gz
-  sha256: 5425dbc429e1b0baa8b1e5202e7fd9c8ee8c401b781ab2561e8107b5aafacf7a
+  sha256: 8f93901466966c5d2a8b5070ab1e17b78a35a251b7121f8201c3cc37db20917a
 
 build:
   number: 0
   python:
     version_independent: true
-  skip:
-    - win
 
 requirements:
   build:
